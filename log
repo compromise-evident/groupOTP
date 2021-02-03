@@ -1,0 +1,35 @@
+/* groupOTP log
+
+
+
+Version 2       It's here--for all your terrorist needs!   This version utilizes
+                the existing key style and option 4 eats half the RAM of OTP--my
+                regular One-time pad. Requires only 256MB of RAM.  Option 3 also
+                now requires half of what it used to--eating only  3.2MB of RAM.
+                And of course, encrypt/decrypt eats about  100KB  of RAM.  There
+                was once an  option  5--burn keys,  but I think it's a bad idea.
+                First of all, read my FAQ on data protection. If a user is about
+                to be compromised, their keys should be wiped just in case.  And
+                this should be done using  a  GNU+Linux  OS   installer with the
+                encryption of entire drive--as it overwrites the drive before an
+                install, consuming about 1 hour and may shutdown the machine due
+                to the HDD overheating (I had that.) Reason to burn: keys cannot
+                be used to decrypt messages from other  team members.   Entering
+                your machine to do that via  option 5  (if it was here)  weakens
+                your physical security. In such an emergency situation,   do NOT
+                decrypt your encrypted HDD, burn it using a 32 Devuan installer.
+                groupOTP can replace OTP, however, OTP is a bit easier to audit.
+                No merging and no forced functionality!  Just modular features--
+                why tug miles of rope just to undo a single knot?  And remember,
+                if you're effective, forget the  internet and  all communication
+                where data is not limited to equipment boundaries.  If you must,
+                isolate the machine used to encrypt and decrypt. You may give it
+                input by observing text and inputting it manually, one character
+                at a time. And for  outgoing  ciphertext--observe  and enter the
+                ciphertext on another machine that IS connected to some network.
+                Alternatively,  RICIN  will be available to automate  just that.
+                (Restricted Interface Computation Isolation Network.)
+                Wednesday, February 03 2021
+
+Version 1       Never officially released. Cool but spaghettified.
+                Monday, February 01 2021 */
