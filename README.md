@@ -1,3 +1,10 @@
+<!---
+Fast & plentiful One-time pad for groups of any size.
+20,000 msg/user (generates 3.2MB in 8s/user) -OR- 1,600,000 msg/user (generates 256MB in 8m/user.)
+-->
+
+
+
 [Auditing in the browser?](https://coliru.stacked-crooked.com/a/c8bd678d80373504)
 
 <p align="center">
