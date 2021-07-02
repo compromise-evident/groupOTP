@@ -5,7 +5,7 @@ Fast & plentiful One-time pad for groups of any size.
 
 
 
-[Auditing in the browser?](https://coliru.stacked-crooked.com/a/c8bd678d80373504)
+[Auditing in the browser?](https://coliru.stacked-crooked.com/a/ade6481c1583bfcf)
 
 <p align="center">
   <img src="https://github.com/compromise-evident/groupOTP/blob/main/Other/Terminal.png">
