@@ -1,0 +1,8 @@
+OTP
+
+
+
+Version 4.0.0   Combined groupOTP, schemeOTP, and falseOTP (which was Multiway.)
+                Group sharing may come later. OTP is falseOTP with rolling-code;
+                dual channel,  2 seeds/user (incoming, outgoing: swapped for 1.)
+                Feb 8 2024
