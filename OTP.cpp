@@ -2,8 +2,19 @@
 
 
 /* Version 4.0.0   +   rolling-code 3.1.0
+Send in the order encrypted, and decrypt in the order received!
 Although there are no limits, you should get new keys occasionally.
-Send in the order encrypted, and decrypt in the order received! */
+ ______________________________________________________________________________
+/                                                                              \
+|     Alice makes keys:      * incoming                   * outgoing           |
+|                                                                              |
+|      Bob gets copies:      * incoming                   * outgoing           |
+|                               (copy)                       (copy)            |
+|                                                                              |
+|                            with which                   with which           |
+|                           Bob encrypts,               Alice encrypts,        |
+|                          Alice decrypts!               Bob decrypts!         |
+\_____________________________________________________________________________*/
 
 #include <fstream>
 #include <iostream>
