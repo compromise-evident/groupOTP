@@ -9,6 +9,8 @@
 <br>
 <br>
 
+# Recommended setup for chatting securely
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/OTP/main/Other/Secure_chat.png">
 </p>
