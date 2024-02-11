@@ -24,8 +24,8 @@ int main()
 {	ifstream in_stream;
 	ofstream out_stream;
 	
-	cout << "\n(1) Encrypt"
-	     << "\n(2) Decrypt"
+	cout << "\n(1) Encrypt outgoing"
+	     << "\n(2) Decrypt incoming"
 	     << "\n(3) Get keys"
 	
 	     << "\n\nOption: ";
