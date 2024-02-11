@@ -502,7 +502,7 @@ int main()
 	if(user_option == 1)
 	{	//Prepares 2 file streams.
 		in_stream.open(path_to_file);
-		path_to_file[path_to_file_null_bookmark    ] = '.'; //..........Appends ".OTP" to file name.
+		path_to_file[path_to_file_null_bookmark    ] = '.'; //..........Appends ".1time" to file name.
 		path_to_file[path_to_file_null_bookmark + 1] = '1';
 		path_to_file[path_to_file_null_bookmark + 2] = 't';
 		path_to_file[path_to_file_null_bookmark + 3] = 'i';
