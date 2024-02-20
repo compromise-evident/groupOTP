@@ -321,10 +321,14 @@ int main()
 		char garbage_byte;
 		out_stream.open("keys/seeds_for_incoming");
 		for(int a = 0; a < 1000; a++) {in_stream.get(garbage_byte); out_stream.put(garbage_byte);}
+		out_stream << "\n\nSeeds are always rolling and in symmetry with the other party."
+		           << "\nThe one with file \"2\" uses incoming for outgoing, and outgoing for incoming.\n";
 		out_stream.close();
 		
 		out_stream.open("keys/seeds_for_outgoing");
 		for(int a = 0; a < 1000; a++) {in_stream.get(garbage_byte); out_stream.put(garbage_byte);}
+		out_stream << "\n\nSeeds are always rolling and in symmetry with the other party."
+		           << "\nThe one with file \"2\" uses incoming for outgoing, and outgoing for incoming.\n";
 		out_stream.close();
 		remove("RC_seeds");
 		remove("Code");
@@ -730,6 +734,8 @@ int main()
 		}
 		out_stream << actual_seeds[a];
 	}
+	out_stream << "\n\nSeeds are always rolling and in symmetry with the other party."
+	           << "\nThe one with file \"2\" uses incoming for outgoing, and outgoing for incoming.\n";
 	out_stream.close();
 	
 	//Overwrites things (some are partially effective--printed/copied text is cloned from RAM to RAM, flash storage cannot be easily overwritten.)
