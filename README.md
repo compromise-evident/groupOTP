@@ -14,3 +14,12 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/OTP/main/Other/Secure_chat.png">
 </p>
+
+<br>
+<br>
+
+# Perfect secrecy proof
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/compromise-evident/OTP/main/Other/Perfect_secrecy_proof.png">
+</p>
