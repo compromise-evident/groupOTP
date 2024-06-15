@@ -23,3 +23,5 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/OTP/main/Other/Perfect_secrecy_proof.png">
 </p>
+
+(The original discoverer of the One-time pad is not mentioned because I had independently rediscovered it ~December 2019.)
