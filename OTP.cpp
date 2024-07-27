@@ -44,7 +44,7 @@ int main()
 		in_stream.close();
 		
 		//The following is verbatim from rollingcode.cpp, except for cout, extraction, & user knobs 1 & 2.
-		long long code_length_in_thousands = 2000; //For 2,000-digit code; half to initial incoming seeds, half to initial outgoing seeds.
+		long long code_length_in_thousands = 2000; //For 2,000-digit code; half to initial seeds for incoming, half to initial seeds for outgoing.
 		bool absurd_protection_against_cryptanalysis = true; //Slow, code_length_in_thousands becomes "actual code length."  DEFAULT = true.
 		
 		//Creates seeds file if missing.
