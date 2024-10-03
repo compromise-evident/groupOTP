@@ -1,4 +1,6 @@
-/// OTP - One-time pad for unlimited file encryption between 2 people.          Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
+/// OTP - One-time pad for unlimited file encryption                            Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
+///       between 2 people. No key is rejected upon
+///       decryption--giving false plausible output.
 
 
 /* Version 4.0.0   +   rolling-code 3.1.1
