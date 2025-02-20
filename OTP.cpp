@@ -1,6 +1,6 @@
-/// OTP - Dual-channel One-time pad for unlimited file                          Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
-///       encryption between 2 people. No key is rejected
-///       upon decryption--giving false plausible output.
+// OTP - Dual-channel One-time pad for unlimited file                           Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
+//       encryption between 2 people. No key is rejected
+//       upon decryption--giving false plausible output.
 
 
 /* Version 4.0.0   +   rolling-code 3.1.1
