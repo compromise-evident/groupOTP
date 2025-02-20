@@ -1,11 +1,11 @@
-/// OTP - One-time pad for unlimited file encryption                            Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
-///       between 2 people. No key is rejected upon
-///       decryption--giving false plausible output.
+/// OTP - Dual-channel One-time pad for unlimited file                          Run it: "apt install g++ geany". Open the .cpp in Geany. Hit F9 once. F5 to run.
+///       encryption between 2 people. No key is rejected
+///       upon decryption--giving false plausible output.
 
 
 /* Version 4.0.0   +   rolling-code 3.1.1
-Send in the order encrypted, and decrypt in the order received!
-Although there are no limits, you should get new keys occasionally.
+Send in the order encrypted, and decrypt in the order received! Although
+there are no limits, you should get new keys occasionally. Dual-channel:
  ______________________________________________________________________________
 /                                                                              \
 |     Alice makes keys:      * incoming                   * outgoing           |
