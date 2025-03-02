@@ -1,6 +1,8 @@
-OTP
+groupOTP
 
 
+
+Version 5.0.0   Group-chat. Renamed from OTP to groupOTP.  Now n-channel system.
 
 Version 4.0.0   Combined groupOTP, schemeOTP, and falseOTP (which was Multiway.)
                 Group sharing may come later. OTP is falseOTP with rolling-code;
